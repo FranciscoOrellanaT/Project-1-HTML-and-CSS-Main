@@ -1,0 +1,120 @@
+
+html, body {
+	background: rgb(137, 25, 25);
+	margin: 0;
+}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	width: 65%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2.5% 2.5% 0;
+	background: rgb(71, 70, 70);
+	line-height: 1.8;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+	color: rgb(253, 253, 255);
+}
+
+h1 {
+	font: 1.6em Verdana, Geneva, sans-serif;
+	margin-bottom: .4em;
+	color: rgb(255, 254, 254);
+}
+
+h2, h3 {
+	font-size: 1.2em;
+	color: rgb(255, 254, 254);
+}
+
+h5 {
+	font-size: 2.2em;
+	color: rgb(255, 254, 254);
+}
+
+p {
+	margin-bottom: 1em;
+}
+
+a {
+	color: rgb(184, 126, 84);
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #222;
+	padding: 15px 30px;
+	margin-right: 10px;
+}
+
+.links {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+	margin-right: 10px;
+}
+
+.links a {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+.links a:hover {
+	background-color: #555;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+li {
+	margin-bottom: 1em;
+	color: rgb(255, 255, 255);
+}
+
+aside {
+	padding: 1em;
+	background: hsl(0, 0%, 0%);
+	color: white;
+	margin-bottom: 1em;
+	width: center;
+	border: 4px solid #ff0000;
+}
+.center {
+	text-align: center;
+}
+
+.flowRight {
+	float: right;
+	margin-right: 10px;
+}
+footer {
+	border-top: 1px solid gray;
+	text-align: center;
+	font-size: .8em;
+	line-height: 4em;
+	margin-top: 1em;
+}
+
+span{
+	color: gold;
+	font-size: 24px;
+}
+
+summary{
+	font-size: 1.2em;
+	color: rgb(255, 254, 254);
+}
+
+.highlight {
+  background-color: #fc4949;             
+  padding: 4px;            
+  border-radius: 3px;       
+}
