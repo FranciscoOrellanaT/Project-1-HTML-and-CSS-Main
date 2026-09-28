@@ -32,6 +32,11 @@ h2, h3 {
 	color: rgb(255, 254, 254);
 }
 
+header h2 {
+	padding-bottom: .2em;
+	border-bottom: 1px solid gray;
+}
+
 h5 {
 	font-size: 2.2em;
 	color: rgb(255, 254, 254);
